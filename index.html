@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="js/index.js"></script>
+
+    <div class="wrapper">
+        <main class="container">
+            <section class="about-us">
+                <h1>Мастер-классы от Create Studio</h1>
+
+                <button type="submit" class="btn" onclick="showModal()">Записаться</button>
+            </section>
+
+            <section class="modal" id="modal">
+                <article>
+                    <h1>Заявка на участие</h1>
+
+                    <form method="post" action="https://jsonplaceholder.typicode.com/users" id="modal-form">
+                        <input name="name" type="text" placeholder="ФИО">
+                        <input name="email" type="text" placeholder="E-mail" style="margin-top: 40px;">
+
+                        <div class="message"> 
+                            Данные отправлены успешно
+                        </div>
+
+                        <input class="btn btn-send" type="submit">
+                    </form>
+                </article>
+            </section>
+
+        </main>
+    </div>
+</body>
+</html>
