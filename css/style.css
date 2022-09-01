@@ -7,7 +7,6 @@ body {
   font-family: "Roboto", "Verdana", sans-serif;
   color: #000000;
   background-color: #E3E5E1;
-
 }
 
 .wrapper {
@@ -20,7 +19,6 @@ body {
   padding: 0;
 
   background: url(../img/office.png) no-repeat 700px 120px;
-
 }
 
 .about-us {
@@ -29,7 +27,6 @@ body {
   min-height: 400px;
   padding-left: 90px;
   padding-top: 150px;
-
 }
 
 .about-us h1 {
